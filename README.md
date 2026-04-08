@@ -102,7 +102,19 @@ python Federated_Learning.py
 
 ---
 
-## 📊 Results
+---## 🔍 Visualization 
+
+![Input to Output](Fingerprint enhancement pipeline.png)
+
+**Pipeline Stages:**
+1. 📥 **Input:** Original fingerprint image
+2. 🧹 **Denoised:** Sparse representation-based denoising
+3. ✨ **Enhanced:** PDUSwin-Net output
+4. 🎯 **Minutiae:** Detected ridge endings and bifurcations
+
+---
+
+---## 📊 Results
 
 ### ROC Curve
 

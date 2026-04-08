@@ -60,11 +60,15 @@ python Federated_Learning.py
 
 ### ROC Curve
 
+> DET curve comparison showing the trade-off between False Match Rate and False Non-Match Rate across all federated clients.
+
 <img width="2958" height="2361" alt="plot2_det_curves" src="https://github.com/user-attachments/assets/ca58b9fe-37c6-4d4c-bcc4-efdac40f2f30" />
 
 ---
 
 ### Radar Comparison
+
+> Multi-metric radar chart comparing PDUSwin-Net against baseline models across AUC, EER, accuracy, and fairness dimensions.
 
 <img width="2938" height="2498" alt="plot10_radar_comparison" src="https://github.com/user-attachments/assets/3ba22af2-6db8-4dfe-8252-991cc8e39b08" />
 
@@ -72,11 +76,15 @@ python Federated_Learning.py
 
 ### Computational Performance
 
+> Comparison of inference time, memory usage, and FLOPs across models to evaluate computational efficiency.
+
 <img width="4161" height="1763" alt="plot9_computational_performance" src="https://github.com/user-attachments/assets/3b0b0ba8-d7c6-43cf-92b8-f517e90ee3a7" />
 
 ---
 
 ### Performance Comparison
+
+> Bar chart comparing recognition accuracy and AUC of PDUSwin-Net against CNN, Swin Transformer, and other baselines.
 
 <img width="4763" height="1759" alt="plot3_performance_comparison" src="https://github.com/user-attachments/assets/942f5c93-2874-45b7-9a8b-49e86ebee047" />
 
@@ -84,11 +92,15 @@ python Federated_Learning.py
 
 ### Training Convergence
 
+> Federated training loss and accuracy curves over communication rounds, showing stable convergence across all clients.
+
 <img width="4161" height="3012" alt="plot4_training_convergence" src="https://github.com/user-attachments/assets/e557ccb9-652c-44b8-b2bb-f46875131fcc" />
 
 ---
 
 ### Client Fairness
+
+> Per-client performance distribution illustrating equitable model accuracy across all federated participants.
 
 <img width="4162" height="1761" alt="plot8_client_fairness" src="https://github.com/user-attachments/assets/95a4fb69-c558-4092-bd36-038fca0193e5" />
 
@@ -96,11 +108,15 @@ python Federated_Learning.py
 
 ### Finger Performance Heatmap
 
+> Heatmap showing recognition accuracy for each finger type, highlighting performance variation across different biometric inputs.
+
 <img width="2826" height="1762" alt="plot7_finger_performance_heatmap" src="https://github.com/user-attachments/assets/beee74da-a99b-4428-9558-29f5c761dc4b" />
 
 ---
 
 ### Robustness Analysis
+
+> Model performance under various noise levels and image quality degradations, demonstrating the effectiveness of sparse denoising.
 
 <img width="4163" height="2055" alt="plot6_robustness_analysis" src="https://github.com/user-attachments/assets/ec8cc4d2-187e-4440-9f74-c6aee726b694" />
 

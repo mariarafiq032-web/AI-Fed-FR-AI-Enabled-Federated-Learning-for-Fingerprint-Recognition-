@@ -50,7 +50,7 @@ python Federated_Learning.py
 
 ### ROC Curve 
 
-<img width="2955" height="2349" alt="plot1_roc_curves" src="https://github.com/user-attachments/assets/d1539360-7925-4700-a615-c5007f3632e3" />
+![ROC](results/plot1_roc_curves.png)
 <img width="2958" height="2361" alt="plot2_det_curves" src="https://github.com/user-attachments/assets/ca58b9fe-37c6-4d4c-bcc4-efdac40f2f30" />
 ### radar_comparison
 

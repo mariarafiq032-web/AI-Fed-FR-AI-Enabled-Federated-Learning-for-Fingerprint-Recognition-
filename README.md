@@ -75,6 +75,10 @@ DATA_DIR = Path("/your/dataset/path/Fingerprint")
 
 > **Note:** Dataset contains WSQ format fingerprint images. Ensure the WSQ PIL plugin is installed before running (`WSQ PIL plugin registered successfully`).
 
+### Sample Dataset for Testing
+
+> A sample dataset with 50 synthetic fingerprint images is included in the `Fingerprint Sample Dataset` folder. This allows you to test the code and verify the pipeline without requiring the full restricted dataset.
+
 ---
 
 ## ⚙️ Hardware Specifications

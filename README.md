@@ -104,7 +104,7 @@ python Federated_Learning.py
 
 ---## 🔍 Visualization 
 
-![Input to Output](Fingerprint enhancement pipeline.png)
+![Input to Output](result/Fingerptint enhancement pipeline)
 
 **Pipeline Stages:**
 1. 📥 **Input:** Original fingerprint image

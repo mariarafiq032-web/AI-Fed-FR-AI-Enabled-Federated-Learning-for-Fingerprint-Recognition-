@@ -85,19 +85,10 @@ DATA_DIR = Path("/your/dataset/path/Fingerprint")
 |---|---|
 | **Primary GPU** | NVIDIA TITAN V |
 | **VRAM (Primary)** | 12,288 MiB (~12.64 GB) |
-| **Secondary GPU** | NVIDIA GeForce RTX 2080 Ti |
-| **VRAM (Secondary)** | 11,264 MiB (~11 GB) |
 | **CUDA Version** | 11.8 |
 | **Driver Version** | 535.288.01 |
 | **Active Device** | CUDA |
 | **CUDA Benchmark Mode** | Enabled |
-
-### GPU Utilization During Training
-
-| GPU | Name | Utilization | Power Usage |
-|---|---|---|---|
-| GPU 0 | NVIDIA TITAN V | 69% | 167W / 250W |
-
 
 > Training was primarily performed on **NVIDIA TITAN V** (GPU 0) with CUDA 11.8 and cuDNN Benchmark mode enabled for optimized performance.
 

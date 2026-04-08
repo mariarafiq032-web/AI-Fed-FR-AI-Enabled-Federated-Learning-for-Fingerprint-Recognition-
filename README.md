@@ -40,11 +40,66 @@ pip install -r requirements.txt
 
 ## 📁 Dataset
 
-Update dataset path in the config:
+### Overview
+
+| Property | Details |
+|---|---|
+| **Format** | WSQ (Wavelet Scalar Quantization) |
+| **Total Images** | 11,350 |
+| **Unique Subjects** | 119 |
+| **Sessions** | 2 |
+| **Session 1** | 5,950 images |
+| **Session 2** | 5,400 images |
+
+### Directory Structure
+
+```
+Fingerprint/
+├── Session1/    # 5950 files, 5950 images
+└── Session2/    # 5400 files, 5400 images
+```
+
+### Sample Files
+
+```
+7060_l_2_09.wsq
+7016_l_2_07.wsq
+7003_l_1_09.wsq
+```
+
+### Update Dataset Path
 
 ```python
-DATA_DIR = Path("/your/dataset/path")
+DATA_DIR = Path("/your/dataset/path/Fingerprint")
 ```
+
+> **Note:** Dataset contains WSQ format fingerprint images. Ensure the WSQ PIL plugin is installed before running (`WSQ PIL plugin registered successfully`).
+
+---
+
+## ⚙️ Hardware Specifications
+
+### Compute Environment
+
+| Component | Specification |
+|---|---|
+| **Primary GPU** | NVIDIA TITAN V |
+| **VRAM (Primary)** | 12,288 MiB (~12.64 GB) |
+| **Secondary GPU** | NVIDIA GeForce RTX 2080 Ti |
+| **VRAM (Secondary)** | 11,264 MiB (~11 GB) |
+| **CUDA Version** | 11.8 |
+| **Driver Version** | 535.288.01 |
+| **Active Device** | CUDA |
+| **CUDA Benchmark Mode** | Enabled |
+
+### GPU Utilization During Training
+
+| GPU | Name | Utilization | Power Usage |
+|---|---|---|---|
+| GPU 0 | NVIDIA TITAN V | 69% | 167W / 250W |
+
+
+> Training was primarily performed on **NVIDIA TITAN V** (GPU 0) with CUDA 11.8 and cuDNN Benchmark mode enabled for optimized performance.
 
 ---
 
